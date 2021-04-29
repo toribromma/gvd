@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledInformation = styled.div`
+export const StyledInformation = styled.ul`
   display: block;
   width: 1024px;
   margin: 0 auto;

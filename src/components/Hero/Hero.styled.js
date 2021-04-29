@@ -36,8 +36,7 @@ export const StyledHero = styled.div`
     color: #ccc;
   }
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    /* left: 10%;
-    right: 10%; */
+    text-align: center;
     h2 {
       font-size: 2rem;
     }

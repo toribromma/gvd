@@ -12,6 +12,9 @@ export const StyledCarousel = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-
+    margin-top: 0px;
+    img {
+      /* height: 600px; */
+    }
   }
 `;
