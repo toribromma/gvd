@@ -17,10 +17,11 @@ export const StyledInformation = styled.ul`
     display: inline-block;
     text-transform: uppercase;
     margin: 1rem 1rem;
+    margin-left: 0;
     padding: 1rem 3rem;
     font-size: 3rem;
     width: 250px;
-    text-align: right;
+    text-align: center;
     color: #FEFFFC;
     letter-spacing: 1.2px;
     background-color: #B02E12;
@@ -37,6 +38,6 @@ export const StyledInformation = styled.ul`
 `;
 
 export const StyledBanner = styled.div`
-  width: 100%;
+  width: fit-content;
   background: #1b1b1b;
 `;

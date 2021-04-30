@@ -7,6 +7,7 @@ export const StyledHero = styled.div`
   button {
     margin: 1rem auto;
     max-width: 700px;
+    padding: 1rem;
   }
 
   h1 {
