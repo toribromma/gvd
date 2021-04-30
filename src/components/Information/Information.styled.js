@@ -38,6 +38,6 @@ export const StyledInformation = styled.ul`
 `;
 
 export const StyledBanner = styled.div`
-  width: fit-content;
+  width: 100%;
   background: #1b1b1b;
 `;

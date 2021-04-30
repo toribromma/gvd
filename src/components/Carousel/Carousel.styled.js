@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const StyledCarousel = styled.div`
   max-width: 700px;
-  /* min-width: 275px; */
   margin: 0 auto;
   margin-top: 120px;
   img {
@@ -13,7 +12,6 @@ export const StyledCarousel = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    margin-top: 0px;
     img {
       /* height: 600px; */
     }
