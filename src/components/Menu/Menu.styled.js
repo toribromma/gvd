@@ -13,8 +13,11 @@ export const StyledMenu = styled.nav`
   left: 0;
   z-index: 2;
   width: 100%;
-  /* transition: transform 0.3s ease-in-out; */
+  transition: transform 0.3s ease-in-out;
+  @media (max-width: ${({ theme }) => theme.mobile}) {
 
+    
+  }
   @media (min-width: ${({ theme }) => theme.desktop}) {
     display: flex;
     flex-direction: row;

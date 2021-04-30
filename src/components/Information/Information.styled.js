@@ -16,7 +16,7 @@ export const StyledInformation = styled.div`
   h1 {
     display: inline-block;
     text-transform: uppercase;
-    margin: 1rem 2rem;
+    /* margin: 1rem 2rem; */
     /* margin-left: 40px; */
     padding: 1rem 3rem;
     font-size: 3rem;
@@ -39,7 +39,7 @@ export const StyledInformation = styled.div`
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     h1, h2 {
-      margin: 1rem 1rem 0 0nprem;
+      margin: 1rem auto;
     }
     h2 {
       padding: 1rem;
