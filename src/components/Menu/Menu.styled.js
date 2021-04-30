@@ -4,25 +4,21 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: ${({ theme }) => theme.primaryLight};
+  background: ${({ theme }) => theme.primaryDark};
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
   height: 100vh;
-  text-align: left;
   padding: 1rem;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 2;
+  width: 100%;
   /* transition: transform 0.3s ease-in-out; */
-  @media (max-width: ${({ theme }) => theme.mobile}) {
-    width: 100%;
-  }
+
   @media (min-width: ${({ theme }) => theme.desktop}) {
     display: flex;
     flex-direction: row;
-    position: absolute;
-    top: 125px;
-    right: 0;
+    position: static;
     margin: 0 auto;
     transform: none;
     height: fit-content;

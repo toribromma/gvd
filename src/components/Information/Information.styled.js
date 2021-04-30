@@ -39,7 +39,7 @@ export const StyledInformation = styled.div`
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
     h1, h2 {
-      margin: 1rem 1rem 0 0rem;
+      margin: 1rem 1rem 0 0nprem;
     }
     h2 {
       padding: 1rem;
