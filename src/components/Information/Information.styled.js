@@ -9,7 +9,9 @@ export const StyledInformation = styled.ul`
   @media(max-width: 1023px) {
     width: fit-content;
   }
-  
+  ul {
+    margin: 0;
+  }
   li {
     display: inline-block;
   }
@@ -17,11 +19,11 @@ export const StyledInformation = styled.ul`
     display: inline-block;
     text-transform: uppercase;
     margin: 1rem 1rem;
-    margin-left: 0;
+    /* margin-left: 40px; */
     padding: 1rem 3rem;
     font-size: 3rem;
     width: 250px;
-    text-align: center;
+    text-align: right;
     color: #FEFFFC;
     letter-spacing: 1.2px;
     background-color: #B02E12;
