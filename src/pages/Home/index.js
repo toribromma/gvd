@@ -1,9 +1,8 @@
 import React from "react";
-import { Carousel, Information, Hero } from "../../components";
+import { Carousel, Hero } from "../../components";
 const Home = () => {
   return (
     <div>
-      <Information />
       <Carousel />
       <Hero
       name={"GVD Commercial Properties"}

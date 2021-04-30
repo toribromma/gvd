@@ -17,7 +17,6 @@ export const StyledInformation = styled.ul`
     display: inline-block;
     text-transform: uppercase;
     margin: 1rem 1rem;
-    margin-left: 2rem;
     padding: 1rem 3rem;
     font-size: 3rem;
     width: 250px;

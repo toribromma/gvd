@@ -32,6 +32,7 @@ export const StyledHero = styled.div`
   button:hover {
     background-color: #ccc;
   }
+  
   @media (max-width: ${({ theme }) => theme.mobile}) {
     text-align: center;
     h2 {

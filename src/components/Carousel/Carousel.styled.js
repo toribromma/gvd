@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledCarousel = styled.div`
   max-width: 700px;
+  min-width: 300px;
   margin: 0 auto;
   margin-top: 120px;
   img {
