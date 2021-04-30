@@ -1,15 +1,6 @@
 import styled from "styled-components";
 
 export const StyledHero = styled.div`
-  /* display: inline-block; */
-  /* float: left; */
-  /* position: absolute;
-  top: 30%;
-  left: 25%;
-  right: 25%; */
-  text-align: left;
-  margin: 1rem auto;
-
   h1,
   h2,
   p,
@@ -28,12 +19,18 @@ export const StyledHero = styled.div`
     font-weight: 400;
   }
   button {
+    display: flex;
+    cursor: pointer;
     border: 1px solid white;
     border-radius: 55px;
     padding: 1rem;
     margin-top: 10px;
     background: transparent;
     color: #ccc;
+  }
+
+  button:hover {
+    background-color: #ccc;
   }
   @media (max-width: ${({ theme }) => theme.mobile}) {
     text-align: center;

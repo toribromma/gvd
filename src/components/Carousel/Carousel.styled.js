@@ -16,5 +16,6 @@ export const StyledCarousel = styled.div`
     img {
       /* height: 600px; */
     }
+    
   }
 `;

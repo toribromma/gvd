@@ -4,7 +4,8 @@ export const StyledTab = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
-  width: 40%;
+  /* width: 40%; */ 
+  height: fit-content;
   position: relative;
   margin-right: 0.1em;
   font-size: 1em;
