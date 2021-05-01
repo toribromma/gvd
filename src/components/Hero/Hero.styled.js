@@ -6,7 +6,7 @@ export const StyledHero = styled.div`
   p,
   button {
     margin: 1rem auto;
-    max-width: 600px;
+    max-width: 500px;
     padding: 1rem;
   }
 

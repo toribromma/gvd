@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const StyledCarousel = styled.div`
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
 
   img {
     opacity: 90%;
     background-blend-mode: darken, luminosity;
-    height: 325px;
+    /* height: 325px; */
     object-fit: contain;
   }
 
