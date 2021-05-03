@@ -1,15 +1,17 @@
 import React from "react";
-import { Carousel, Hero } from "../../components";
+import { Hero } from "../../components";
+import {data} from "../../data"
+
 const Development = () => {
+  const paragraph1 = data.development.slice(1,4);
   return (
     <div>
-      <Carousel />
-      <Hero
-      name={"GVD Commercial Properties"}
-      description={"GVD has been developing and redeveloping retail projects since 1974."}
-      p={"GVD specializes in all phases of retail and commercial development with particular emphasis on expert master planning and well-crafted and creative developments. GVD also provides consulting and development services for developers seeking expertise and/or financial support."}
-      button={"Call Us for Help"}
-      />
+      <Hero>
+        <h1>{data.development[0]}</h1>
+        {paragraph1.map((data) => {
+          return <p>{data}</p>
+        })}
+      </Hero>
     </div>
   );
 };

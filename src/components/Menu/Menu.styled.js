@@ -13,10 +13,9 @@ export const StyledMenu = styled.nav`
   left: 0;
   z-index: 2;
   width: 100%;
-  transition: transform 0.3s ease-in-out;
-  @media (max-width: ${({ theme }) => theme.mobile}) {
 
-    
+  @media(max-width: 999px) {
+    transition: transform 0.3s ease-in-out;
   }
   @media (min-width: ${({ theme }) => theme.desktop}) {
     display: flex;
@@ -41,6 +40,7 @@ export const StyledMenu = styled.nav`
     @media (max-width: ${({ theme }) => theme.mobile}) {
       font-size: 1.5rem;
       text-align: center;
+      
     }
     @media (min-width: ${({ theme }) => theme.desktop}) {
       font-size: 1rem;

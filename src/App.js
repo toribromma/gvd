@@ -11,7 +11,7 @@ import {
 } from "./components";
 import { useOnClickOutside } from "./hooks";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import {Home, About} from "./pages";
+import {Home, About, Development} from "./pages";
 import FocusLock from "react-focus-lock";
 
 function App() {
@@ -31,11 +31,20 @@ function App() {
           </FocusLock>
         </div>
         <div>
-          <Switch>
+          <Switch>              <FlexContainer>
             <Route exact path="/">
-              <FlexContainer>
+
                 <Home />
-                <Sidebar>
+               
+ 
+            </Route>
+            <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/development">
+            <Development />
+          </Route>
+          <Sidebar>
                   <h1>Dunia Plaza</h1>
                   <p>
                     Our Dunia Plaza project in Victorville, California, is a
@@ -49,15 +58,9 @@ function App() {
                     restaurants, hospitality and power retailers. More...
                   </p>
                 </Sidebar>
-              </FlexContainer>
-            </Route>
-            <Route path="/about">
-            <About />
-          </Route>
-          {/* <Route path="/dashboard">
-            <Dashboard />
-          </Route> */}
+          </FlexContainer>
           </Switch>
+
         </div>
       </Router>
     </ThemeProvider>

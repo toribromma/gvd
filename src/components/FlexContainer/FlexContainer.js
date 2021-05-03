@@ -3,7 +3,7 @@ import {StyledFlexContainer} from "./FlexContainer.styled"
 
 const FlexContainer = (props) => {
     return (
-        <StyledFlexContainer>
+        <StyledFlexContainer {...props}>
             {props.children}
         </StyledFlexContainer>
     )

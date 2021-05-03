@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const StyledFlexContainer = styled.div`
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-`
+  margin: 0 auto;
+  /* width: 800px; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+`;

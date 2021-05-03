@@ -9,9 +9,9 @@ export const StyledSidebar = styled.div`
 
     @media(max-width: 999px) {
         margin: 0 auto;
-        padding: 2rem;
+        /* padding: 2rem; */
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
         /* border: white solid 2px; */
     }
 `
