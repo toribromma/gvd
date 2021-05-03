@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
 export const StyledHero = styled.div`
+max-width: 500px;
+margin: 1rem auto;
+padding: 1rem;
   h1,
   h2,
   p,
   button {
-    margin: 1rem auto;
-    max-width: 500px;
-    padding: 1rem;
+
   }
 
   h1 {

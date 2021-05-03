@@ -11,7 +11,7 @@ import {
 } from "./components";
 import { useOnClickOutside } from "./hooks";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./pages/Home/index";
+import {Home, About} from "./pages";
 import FocusLock from "react-focus-lock";
 
 function App() {
@@ -51,10 +51,10 @@ function App() {
                 </Sidebar>
               </FlexContainer>
             </Route>
-            {/* <Route path="/about">
+            <Route path="/about">
             <About />
           </Route>
-          <Route path="/dashboard">
+          {/* <Route path="/dashboard">
             <Dashboard />
           </Route> */}
           </Switch>

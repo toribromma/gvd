@@ -10,6 +10,7 @@ const Tab = (props) => {
             props.setActive(index);
           }
           router.push(`/${props.location}`)
+          props.setOpen(false)
         };
 
     // Get the router object

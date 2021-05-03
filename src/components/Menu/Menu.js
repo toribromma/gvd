@@ -16,6 +16,8 @@ const Menu = ({ open, ...props }) => {
         location=""
         tabIndex={tabIndex}
         setActive={setActive}
+        open={open}
+        setOpen={props.setOpen}
       >
         Home
       </Tab>
@@ -25,6 +27,8 @@ const Menu = ({ open, ...props }) => {
         location="about"
         tabIndex={tabIndex}
         setActive={setActive}
+        open={open}
+        setOpen={props.setOpen}
       >
         {/* <span aria-hidden="true">💁🏻‍♂️</span> */}
         About Us
@@ -35,6 +39,8 @@ const Menu = ({ open, ...props }) => {
         tabIndex={tabIndex}
         location="development"
         setActive={setActive}
+        open={open}
+        setOpen={props.setOpen}
       >
         {/* <span aria-hidden="true">💁🏻‍♂️</span> */}
         Development
@@ -45,6 +51,8 @@ const Menu = ({ open, ...props }) => {
         location="jv&a"
         setActive={setActive}
         tabIndex={tabIndex}
+        open={open}
+        setOpen={props.setOpen}
       >
         {/* <span aria-hidden="true">💸</span> */}
         Joint Venture
@@ -57,6 +65,8 @@ const Menu = ({ open, ...props }) => {
         setActive={setActive}
         href="/"
         tabIndex={tabIndex}
+        open={open}
+        setOpen={props.setOpen}
       >
         {/* <span aria-hidden="true">📩</span> */}
         Properties
@@ -68,6 +78,8 @@ const Menu = ({ open, ...props }) => {
         setActive={setActive}
         href="/"
         tabIndex={tabIndex}
+        open={open}
+        setOpen={props.setOpen}
       >
         {/* <span aria-hidden="true">📩</span> */}
         Property Management
@@ -80,6 +92,8 @@ const Menu = ({ open, ...props }) => {
         setActive={setActive}
         href="/"
         tabIndex={tabIndex}
+        open={open}
+        setOpen={props.setOpen}
       >
         {/* <span aria-hidden="true">📩</span> */}
         Contact Us

@@ -1,15 +1,12 @@
 import React from "react";
 import {StyledHero} from "./Hero.styled"
 
-const Hero = ({button, p, description, name}) => {
+const Hero = ({...props}) => {
     return (
-        <StyledHero>
-            <h1>{name}</h1>
-            <h2>{description}</h2>
-            <p>{p}</p>
-            <button>{button}</button>
+        <StyledHero {...props}>
+            {props.children}
         </StyledHero>
-    )
+    )   
 }
 
 export default Hero
