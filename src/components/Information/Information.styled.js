@@ -38,6 +38,7 @@ export const StyledInformation = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
+    text-align: left;
     h1, h2 {
       margin: 1rem auto;
     }
