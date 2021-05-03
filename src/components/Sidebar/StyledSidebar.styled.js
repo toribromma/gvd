@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const StyledSidebar = styled.div`
-    background: ${({theme}) => theme.primaryDark};
+    /* background: ${({theme}) => theme.primaryDark};
+     */
+    background:#1B1B1B;
     width: 200px;
     /* margin-top: 132px;got */
     color: ${({theme}) => theme.primaryLight};

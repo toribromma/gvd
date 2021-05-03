@@ -48,7 +48,7 @@ const Menu = ({ open, ...props }) => {
       <Tab
         id={3}
         active={active === 3}
-        location="jv&a"
+        location="jointvanda"
         setActive={setActive}
         tabIndex={tabIndex}
         open={open}

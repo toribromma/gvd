@@ -11,7 +11,7 @@ import {
 } from "./components";
 import { useOnClickOutside } from "./hooks";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import {Home, About, Development} from "./pages";
+import { Home, About, Development, Joint } from "./pages";
 import FocusLock from "react-focus-lock";
 
 function App() {
@@ -30,38 +30,36 @@ function App() {
             <Menu open={open} setOpen={setOpen} id={menuId} />
           </FocusLock>
         </div>
-        <div>
-          <Switch>              <FlexContainer>
+        <Switch>
+          <FlexContainer>
             <Route exact path="/">
-
-                <Home />
-               
- 
+              <Home />
             </Route>
             <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/development">
-            <Development />
-          </Route>
-          <Sidebar>
-                  <h1>Dunia Plaza</h1>
-                  <p>
-                    Our Dunia Plaza project in Victorville, California, is a
-                    master-planned mixed retail development emphasizing
-                    restaurants, hospitality and power retailers. More...
-                  </p>
-                  <h1>Dunia Plaza</h1>
-                  <p>
-                    Our Dunia Plaza project in Victorville, California, is a
-                    master-planned mixed retail development emphasizing
-                    restaurants, hospitality and power retailers. More...
-                  </p>
-                </Sidebar>
+              <About />
+            </Route>
+            <Route path="/development">
+              <Development />
+            </Route>
+            <Route path="/jointvanda">
+              <Joint />
+            </Route>
+            <Sidebar>
+              <h1>Dunia Plaza</h1>
+              <p>
+                Our Dunia Plaza project in Victorville, California, is a
+                master-planned mixed retail development emphasizing restaurants,
+                hospitality and power retailers. More...
+              </p>
+              <h1>Dunia Plaza</h1>
+              <p>
+                Our Dunia Plaza project in Victorville, California, is a
+                master-planned mixed retail development emphasizing restaurants,
+                hospitality and power retailers. More...
+              </p>
+            </Sidebar>
           </FlexContainer>
-          </Switch>
-
-        </div>
+        </Switch>
       </Router>
     </ThemeProvider>
   );

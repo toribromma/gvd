@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const StyledHero = styled.div`
+background: ${({theme}) => theme.primaryLight};
+color: ${({theme}) => theme.primaryDark};
 max-width: 800px;
 margin: 1rem auto;
 padding: 1rem;
@@ -12,7 +14,7 @@ padding: 1rem;
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 400;
   }
 
@@ -27,8 +29,9 @@ padding: 1rem;
     border-radius: 55px;
     padding: 1rem;
     margin-top: 10px;
-    background: transparent;
-    color: #ccc;
+    background: #1B1B1B;
+    color: ${({theme}) => theme.primaryLight};
+
   }
 
   button:hover {

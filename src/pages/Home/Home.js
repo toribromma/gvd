@@ -6,9 +6,9 @@ const Home = () => {
       <Carousel />
       <Hero>
         <h1>GVD Commercial Properties</h1>
-        <h2>
+        <p>
           GVD has been developing and redeveloping retail projects since 1974.
-        </h2>
+        </p>
         <p>
           GVD specializes in all phases of retail and commercial development
           with particular emphasis on expert master planning and well-crafted
@@ -16,7 +16,7 @@ const Home = () => {
           development services for developers seeking expertise and/or financial
           support.
         </p>
-        <button>Call Us for Help</button>
+        <button>Also See...</button>
       </Hero>
     </div>
   );

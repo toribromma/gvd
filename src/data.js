@@ -21,5 +21,32 @@ export const data = {
         "Since the formation of the company, GVD has specialized in developing and acquiring shopping centers throughout the western United States. Originally, GVD’s primary market was California and Arizona.",
         "In the mid-1980’s, GVD was the first developer in the United States to build “power centers” (The Plaza at Puente Hills and Fullerton Town Center) in cooperation with the respective cities’ redevelopment agencies. Currently GVD is developing power centers in Victorville and Apple Valley, California.",
         "In recent years, GVD has expanded its development to the Inland Northwest and is currently active in commercial developments in Washington and Idaho. Recently, GVD completed a Kohl’s anchored shopping center in Coeur d’Alene, Idaho. Currently, GVD is planning a mixed use hotel/retail development in downtown Spokane, Washington. GVD’s professionalism, stability and reputation for completing difficult land development transactions has resulted in the company’s selection by local governments for numerous redevelopment and economic development projects."
-    ]
+    ],
+    joint: {
+        firstHeading: "Joint Venture & Acquisition",
+        secondHeading: "Joint Venture",
+        p1: [
+            "GVD has a long history of successful real estate joint ventures with land owners and financial institutions. Over the years, GVD has joint ventured development projects with firms such as Lewis Homes, in Rancho Cucamonga, Robert Warmington & Associates in Orange County, and affiliates of Watt Industries in Los Angeles.",
+            "Many of our projects have been developed with landowners such as the trendsetting 95 acre Dunia Plaza in Victorville, California. (See List of Properties)",
+            "The company recently completed the Apple Valley Town Center in Apple Valley, California. GVD is planning a major mixed-use, hotel/retail project in the University District of Spokane, Washington.",
+        ],
+        thirdHeading: "Acquisition",
+        p2: "GVD seeks existing retail projects in which upgraded management and renovation can significantly improve cash flow. GVD seeks acquisitions from 2 million to 50 million dollars.",
+        fourthSmallerHeading: "Property Types",
+        li: [
+            "growth in rents",
+            "remodeling or redevelopment",
+            "ability to expand",
+            "re-tenanting opportunities",
+            "high-traffic intersections",
+            "strong anchor sales",
+            "joint ownership opportunities"
+        ],
+        li2: [
+            "all cash buyer",
+            "quick closings – 30 to 60 days",
+            "aggressive buyer"
+        ]
+    }
+
 }

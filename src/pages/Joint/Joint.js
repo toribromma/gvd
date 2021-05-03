@@ -1,17 +1,36 @@
 import React from "react";
-import { Carousel, Hero } from "../../components";
-const Home = () => {
+import { Hero } from "../../components";
+import {data} from "../../data"
+
+const Joint = () => {
   return (
     <div>
-      <Carousel />
-      <Hero
-      name={"GVD Commercial Properties"}
-      description={"GVD has been developing and redeveloping retail projects since 1974."}
-      p={"GVD specializes in all phases of retail and commercial development with particular emphasis on expert master planning and well-crafted and creative developments. GVD also provides consulting and development services for developers seeking expertise and/or financial support."}
-      button={"Call Us for Help"}
-      />
+      <Hero>
+        <h1>{data.joint.firstHeading}</h1>
+        <h2>{data.joint.secondHeading}</h2>
+        {data.joint.p1.map((data) => {
+          return <p>{data}</p>
+        })}
+        <h2>{data.joint.thirdHeading}</h2>
+        <p>{data.joint.p2}</p>
+        <h3>{data.joint.fourthSmallerHeading}</h3>
+        <p><b>Vacant Land</b>: Well-located corners or freeway off-ramps. (Generally 6 acres to 500 acres.)</p>
+        <p><b>Existing Projects</b>: Well located 60,000 square feet or greater gross leasable area.</p>
+        <p>Upside potential created by:</p>
+        <ul>
+        {data.joint.li.map((data) => {
+          return <p>{data}</p>
+        })}
+        </ul>
+        <h3>Upside potential created by:</h3>
+        <ul>
+        {data.joint.li2.map((data) => {
+          return <p>{data}</p>
+        })}
+        </ul>
+      </Hero>
     </div>
   );
 };
 
-export default Home;
+export default Joint;
