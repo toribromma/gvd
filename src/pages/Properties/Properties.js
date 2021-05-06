@@ -26,9 +26,9 @@ const Properties = () => {
         <h1>Properties (Partial List)</h1>
         <h2>Arizona</h2>
         <table>
-          {arizona.map((data) => {
+          {arizona.map((data,index) => {
             return (
-              <tbody>
+              <tbody key={index}>
                 <tr>
                   <th>{data.Vendor}</th>
                   <th>{data.Street}</th>
@@ -37,10 +37,12 @@ const Properties = () => {
               </tbody>
             );
           })}
-          <h2>California</h2>
-          {california.map((data) => {
+        </table>
+        <h2>California</h2>
+        <table>
+          {california.map((data,index) => {
             return (
-              <tbody>
+              <tbody key={index}>
                 <tr>
                   <th>{data.Vendor}</th>
                   <th>{data.Street}</th>
@@ -49,10 +51,12 @@ const Properties = () => {
               </tbody>
             );
           })}
-          <h2>Colorado</h2>
-          {colorado.map((data) => {
+        </table>
+        <h2>Colorado</h2>
+        <table>
+          {colorado.map((data,index) => {
             return (
-              <tbody>
+              <tbody key={index}>
                 <tr>
                   <th>{data.Vendor}</th>
                   <th>{data.Street}</th>
@@ -61,10 +65,12 @@ const Properties = () => {
               </tbody>
             );
           })}
-          <h2>Idaho</h2>
-          {idaho.map((data) => {
+        </table>
+        <h2>Idaho</h2>
+        <table>
+          {idaho.map((data,index) => {
             return (
-              <tbody>
+              <tbody key={index}>
                 <tr>
                   <th>{data.Vendor}</th>
                   <th>{data.Street}</th>
@@ -73,10 +79,12 @@ const Properties = () => {
               </tbody>
             );
           })}
-          <h2>Illinois</h2>
-          {illinois.map((data) => {
+        </table>
+        <h2>Illinois</h2>
+        <table>
+          {illinois.map((data,index) => {
             return (
-              <tbody>
+              <tbody key={index}>
                 <tr>
                   <th>{data.Vendor}</th>
                   <th>{data.Street}</th>
@@ -85,10 +93,13 @@ const Properties = () => {
               </tbody>
             );
           })}
-          <h2>Indiana</h2>
-          {indiana.map((data) => {
+        </table>
+
+        <h2>Indiana</h2>
+        <table>
+          {indiana.map((data,index) => {
             return (
-              <tbody>
+              <tbody key={index}>
                 <tr>
                   <th>{data.Vendor}</th>
                   <th>{data.Street}</th>
@@ -97,10 +108,13 @@ const Properties = () => {
               </tbody>
             );
           })}
-          <h2>Massachusetts</h2>
-          {massachusetts.map((data) => {
+        </table>
+
+        <h2>Massachusetts</h2>
+        <table>
+          {massachusetts.map((data,index) => {
             return (
-              <tbody>
+              <tbody key={index}>
                 <tr>
                   <th>{data.Vendor}</th>
                   <th>{data.Street}</th>
@@ -109,10 +123,13 @@ const Properties = () => {
               </tbody>
             );
           })}
-          <h2>Michigan</h2>
-          {michigan.map((data) => {
+        </table>
+
+        <h2>Michigan</h2>
+        <table>
+          {michigan.map((data,index) => {
             return (
-              <tbody>
+              <tbody key={index}>
                 <tr>
                   <th>{data.Vendor}</th>
                   <th>{data.Street}</th>
@@ -121,10 +138,13 @@ const Properties = () => {
               </tbody>
             );
           })}
-          <h2>Missouri</h2>
-          {missouri.map((data) => {
+        </table>
+
+        <h2>Missouri</h2>
+        <table>
+          {missouri.map((data,index) => {
             return (
-              <tbody>
+              <tbody key={index}>
                 <tr>
                   <th>{data.Vendor}</th>
                   <th>{data.Street}</th>
@@ -133,66 +153,77 @@ const Properties = () => {
               </tbody>
             );
           })}
-          <h2>New Jersey</h2>
-          {newJersey.map((data) => {
-            return (
-              <tbody>
-                <tr>
-                  <th>{data.Vendor}</th>
-                  <th>{data.Street}</th>
-                  <th>{data.City}</th>
-                </tr>
-              </tbody>
-            );
-          })}
-          <h2>Ohio</h2>
-          {ohio.map((data) => {
-            return (
-              <tbody>
-                <tr>
-                  <th>{data.Vendor}</th>
-                  <th>{data.Street}</th>
-                  <th>{data.City}</th>
-                </tr>
-              </tbody>
-            );
-          })}
-          <h2>Oklahoma</h2>
-          {oklahoma.map((data) => {
-            return (
-              <tbody>
-                <tr>
-                  <th>{data.Vendor}</th>
-                  <th>{data.Street}</th>
-                  <th>{data.City}</th>
-                </tr>
-              </tbody>
-            );
-          })}
-          <h2>Texas</h2>
-          {texas.map((data) => {
-            return (
-              <tbody>
-                <tr>
-                  <th>{data.Vendor}</th>
-                  <th>{data.Street}</th>
-                  <th>{data.City}</th>
-                </tr>
-              </tbody>
-            );
-          })}
-          <h2>Washington</h2>
-          {washington.map((data) => {
-            return (
-              <tbody>
-                <tr>
-                  <th>{data.Vendor}</th>
-                  <th>{data.Street}</th>
-                  <th>{data.City}</th>
-                </tr>
-              </tbody>
-            );
-          })}
+        </table>
+
+        <h2>New Jersey</h2>
+        <table>
+        {newJersey.map((data,index) => {
+          return (
+            <tbody key={index}>
+              <tr>
+                <th>{data.Vendor}</th>
+                <th>{data.Street}</th>
+                <th>{data.City}</th>
+              </tr>
+            </tbody>
+          );
+        })}
+        </table>
+        <h2>Ohio</h2>
+        <table>
+        {ohio.map((data,index) => {
+          return (
+            <tbody key={index}>
+              <tr>
+                <th>{data.Vendor}</th>
+                <th>{data.Street}</th>
+                <th>{data.City}</th>
+              </tr>
+            </tbody>
+          );
+        })}
+        </table>
+        <h2>Oklahoma</h2>
+        <table>
+        {oklahoma.map((data,index) => {
+          return (
+            <tbody key={index}>
+              <tr>
+                <th>{data.Vendor}</th>
+                <th>{data.Street}</th>
+                <th>{data.City}</th>
+              </tr>
+            </tbody>
+          );
+        })}
+        </table>
+        <h2>Texas</h2>
+        <table>
+        {texas.map((data,index) => {
+          return (
+            <tbody key={index}>
+              <tr>
+                <th>{data.Vendor}</th>
+                <th>{data.Street}</th>
+                <th>{data.City}</th>
+              </tr>
+            </tbody>
+          );
+        })}
+        </table>
+        <h2>Washington</h2>
+        <table>
+        {washington.map((data,index) => {
+          return (
+            <tbody key={index}>
+              <tr>
+                <th>{data.Vendor}</th>
+                <th>{data.Street}</th>
+                <th>{data.City}</th>
+              </tr>
+            </tbody>
+          );
+        })}
         </table>
       </Hero>
     </div>

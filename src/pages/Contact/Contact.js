@@ -10,7 +10,7 @@ const Contact = () => {
       <Hero>
         <h1>{data.contact.title}</h1>
         <FlexContainer>
-          <div style={{padding: 20 }}>
+          <div style={{padding: 10 }}>
             <h2>{california.headingOne}</h2>
             <p>{california.pOne}</p>
             <p>{california.pTwo}</p>
@@ -31,7 +31,7 @@ const Contact = () => {
               <b>Property Manager:</b> {california.propertyManager}
             </p>
           </div>
-          <div style={{padding: 20 }}>
+          <div style={{padding: 10 }}>
             <h2>{washington.headingOne}</h2>
             <p>{washington.pOne}</p>
             <p>{washington.pTwo}</p>

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHero = styled.div`
 background: ${({theme}) => theme.primaryLight};
 color: ${({theme}) => theme.primaryDark};
-max-width: 800px;
+width: 800px;
 min-height: 600px;
 padding: 1rem 2rem;
   h1,
@@ -37,7 +37,7 @@ padding: 1rem 2rem;
     border: 1px solid black;
     border-collapse: collapse;
     text-align: left;
-    padding: 2px;
+    padding: 1px;
   }
 
   table {
@@ -51,11 +51,18 @@ padding: 1rem 2rem;
   }
   
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    text-align: center;
     h2 {
       font-size: 2rem;
     }
   }
-  @media (min-width: ${({ theme }) => theme.desktop}) {
+  @media (max-width: 9${({theme}) => theme.desktop}) {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    
+    th, tr, table {
+      text-align: center;
+      margin: 0 auto;
+    }
   }
 `;
