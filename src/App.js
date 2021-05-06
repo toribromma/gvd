@@ -11,7 +11,13 @@ import {
 } from "./components";
 import { useOnClickOutside } from "./hooks";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Home, About, Development, Joint } from "./pages";
+import {
+  Home,
+  About,
+  Development,
+  Joint,
+  PropertyManagementAndLeasing,
+} from "./pages";
 import FocusLock from "react-focus-lock";
 
 function App() {
@@ -44,6 +50,12 @@ function App() {
             <Route path="/jointvanda">
               <Joint />
             </Route>
+            {/* <Route path="/properties">
+              <Joint />
+            </Route> */}
+            <Route path="/propertymanagementandleasing">
+              <PropertyManagementAndLeasing />
+            </Route>
             <Sidebar>
               <h1>Dunia Plaza</h1>
               <p>
@@ -51,11 +63,12 @@ function App() {
                 master-planned mixed retail development emphasizing restaurants,
                 hospitality and power retailers. More...
               </p>
-              <h1>Dunia Plaza</h1>
+              <h1>Ponderay, Idaho</h1>
               <p>
-                Our Dunia Plaza project in Victorville, California, is a
-                master-planned mixed retail development emphasizing restaurants,
-                hospitality and power retailers. More...
+                GVD is developing in Ponderay, Idaho the northeast corner of
+                Highway 95 and Kootenai Cutoff Road, and the northwest corner of
+                Highway 95 and Schweitzer Cutoff Road, which are directly across
+                the street from one another.
               </p>
             </Sidebar>
           </FlexContainer>

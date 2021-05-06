@@ -74,7 +74,7 @@ const Menu = ({ open, ...props }) => {
       <Tab
         id={5}
         active={active === 5}
-        location="pm&l"
+        location="propertymanagementandleasing"
         setActive={setActive}
         href="/"
         tabIndex={tabIndex}

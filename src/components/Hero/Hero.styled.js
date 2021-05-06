@@ -4,8 +4,8 @@ export const StyledHero = styled.div`
 background: ${({theme}) => theme.primaryLight};
 color: ${({theme}) => theme.primaryDark};
 max-width: 800px;
-margin: 1rem auto;
-padding: 1rem;
+min-height: 600px;
+padding: 1rem 2rem;
   h1,
   h2,
   p,

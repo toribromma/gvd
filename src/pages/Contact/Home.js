@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel, Hero } from "../../components";
-const Home = () => {
+const Contact = () => {
   return (
     <div>
       <Carousel />
@@ -14,4 +14,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Contact;
