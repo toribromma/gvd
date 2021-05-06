@@ -17,6 +17,8 @@ import {
   Development,
   Joint,
   PropertyManagementAndLeasing,
+  Contact,
+  Properties
 } from "./pages";
 import FocusLock from "react-focus-lock";
 
@@ -47,14 +49,17 @@ function App() {
             <Route path="/development">
               <Development />
             </Route>
-            <Route path="/jointvanda">
+            <Route path="/acquisition">
               <Joint />
             </Route>
-            {/* <Route path="/properties">
-              <Joint />
-            </Route> */}
+            <Route path="/properties">
+              <Properties />
+            </Route>
             <Route path="/propertymanagementandleasing">
               <PropertyManagementAndLeasing />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
             <Sidebar>
               <h1>Dunia Plaza</h1>
@@ -68,7 +73,7 @@ function App() {
                 GVD is developing in Ponderay, Idaho the northeast corner of
                 Highway 95 and Kootenai Cutoff Road, and the northwest corner of
                 Highway 95 and Schweitzer Cutoff Road, which are directly across
-                the street from one another.
+                the street from one another. More...
               </p>
             </Sidebar>
           </FlexContainer>

@@ -57,4 +57,29 @@ export const data = {
       "Starting in the summer of 2015, GVD will extend its Property Management to include eligible commercial and industrial shopping center owners. Our California Office will manage properties located in the counties of Orange, Los Angeles and San Bernardino. Our Washington Office will manage the greater Spokane area and North Idaho. Please contact our representative offices to inquire and submit your property for review and management consideration.",
     ],
   },
+  contact: {
+      title: "Contact Us",
+      California: {
+          headingOne: "California Office",
+          pOne: "GVD Commercial Properties, Inc.",
+          pTwo: "1915 East Katella Avenue, Suite A",
+          pThree: "Orange, CA 92867",
+          telephone: "(714) 639-2131",
+          fax: "(714) 633-9602",
+          president: "Gerald V. Dicker",
+          vicePresident: "David A. Case",
+          propertyManager: "Hanh Bromma"
+      },
+      Washington: {
+        headingOne: "Washington Office",
+        pOne: "GVD Commercial Properties, Inc.",
+        pTwo: "909 W. 1st Avenue",
+        pThree: "Spokane, WA 99201",
+        telephone: "(509) 534-5805",
+        fax: "(509) 443-0100",
+        president: "Gerald V. Dicker",
+      }
+      
+
+  }
 };

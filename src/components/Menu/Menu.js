@@ -48,7 +48,7 @@ const Menu = ({ open, ...props }) => {
       <Tab
         id={3}
         active={active === 3}
-        location="jointvanda"
+        location="acquisition"
         setActive={setActive}
         tabIndex={tabIndex}
         open={open}
@@ -88,7 +88,7 @@ const Menu = ({ open, ...props }) => {
       <Tab
         id={6}
         active={active === 6}
-        location="contactus"
+        location="contact"
         setActive={setActive}
         href="/"
         tabIndex={tabIndex}

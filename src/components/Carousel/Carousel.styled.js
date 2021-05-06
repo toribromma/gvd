@@ -7,14 +7,13 @@ export const StyledCarousel = styled.div`
   img {
     opacity: 90%;
     background-blend-mode: darken, luminosity;
-    /* height: 325px; */
     object-fit: contain;
   }
 
-  @media (max-width: ${({ theme }) => theme.mobile}) {
+  /* @media (max-width: ${({ theme }) => theme.mobile}) {
     img {
      height: fit-content;
-    }
+    } */
     
   }
 `;

@@ -31,8 +31,20 @@ padding: 1rem 2rem;
     margin-top: 10px;
     background: #1B1B1B;
     color: ${({theme}) => theme.primaryLight};
-
   }
+
+  th, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 2px;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  
 
   button:hover {
     background-color: #ccc;
@@ -43,5 +55,7 @@ padding: 1rem 2rem;
     h2 {
       font-size: 2rem;
     }
+  }
+  @media (min-width: ${({ theme }) => theme.desktop}) {
   }
 `;

@@ -4,6 +4,7 @@ export const StyledInformation = styled.div`
   display: block;
   width: 1024px;
   margin: 0 auto;
+  margin-bottom: -10px;
   box-sizing: content-box;
 
   @media(max-width: 1023px) {
