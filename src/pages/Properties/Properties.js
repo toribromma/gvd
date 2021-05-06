@@ -37,7 +37,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>California</h2>
+          <h2>California</h2>
           {california.map((data) => {
             return (
               <tbody>
@@ -49,7 +49,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>Colorado</h2>
+          <h2>Colorado</h2>
           {colorado.map((data) => {
             return (
               <tbody>
@@ -61,7 +61,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>Idaho</h2>
+          <h2>Idaho</h2>
           {idaho.map((data) => {
             return (
               <tbody>
@@ -73,7 +73,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-        <h2>Illinois</h2>
+          <h2>Illinois</h2>
           {illinois.map((data) => {
             return (
               <tbody>
@@ -85,7 +85,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>Indiana</h2>
+          <h2>Indiana</h2>
           {indiana.map((data) => {
             return (
               <tbody>
@@ -97,7 +97,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>Massachusetts</h2>
+          <h2>Massachusetts</h2>
           {massachusetts.map((data) => {
             return (
               <tbody>
@@ -109,7 +109,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>Michigan</h2>
+          <h2>Michigan</h2>
           {michigan.map((data) => {
             return (
               <tbody>
@@ -121,7 +121,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>Missouri</h2>
+          <h2>Missouri</h2>
           {missouri.map((data) => {
             return (
               <tbody>
@@ -133,7 +133,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>New Jersey</h2>
+          <h2>New Jersey</h2>
           {newJersey.map((data) => {
             return (
               <tbody>
@@ -145,7 +145,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>Ohio</h2>
+          <h2>Ohio</h2>
           {ohio.map((data) => {
             return (
               <tbody>
@@ -157,7 +157,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>Oklahoma</h2>
+          <h2>Oklahoma</h2>
           {oklahoma.map((data) => {
             return (
               <tbody>
@@ -169,7 +169,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>Texas</h2>
+          <h2>Texas</h2>
           {texas.map((data) => {
             return (
               <tbody>
@@ -181,7 +181,7 @@ const Properties = () => {
               </tbody>
             );
           })}
-                  <h2>Washington</h2>
+          <h2>Washington</h2>
           {washington.map((data) => {
             return (
               <tbody>
