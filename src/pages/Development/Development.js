@@ -8,8 +8,8 @@ const Development = () => {
     <div>
       <Hero>
         <h1>{data.development[0]}</h1>
-        {paragraph1.map((data) => {
-          return <p>{data}</p>
+        {paragraph1.map((data, index) => {
+          return <p key={index}>{data}</p>
         })}
       </Hero>
     </div>

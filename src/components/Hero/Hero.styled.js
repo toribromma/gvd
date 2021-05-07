@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const StyledHero = styled.div`
 background: ${({theme}) => theme.primaryLight};
 color: ${({theme}) => theme.primaryDark};
-width: 800px;
+max-width: 800px;
+/* min-width: 800px; */
 min-height: 600px;
 padding: 1rem 2rem;
   h1,

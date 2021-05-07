@@ -8,8 +8,8 @@ const Joint = () => {
       <Hero>
         <h1>{data.joint.firstHeading}</h1>
         <h2>{data.joint.secondHeading}</h2>
-        {data.joint.p1.map((data) => {
-          return <p>{data}</p>
+        {data.joint.p1.map((data, index) => {
+          return <p key={index}>{data}</p>
         })}
         <h2>{data.joint.thirdHeading}</h2>
         <p>{data.joint.p2}</p>
@@ -18,14 +18,14 @@ const Joint = () => {
         <p><b>Existing Projects</b>: Well located 60,000 square feet or greater gross leasable area.</p>
         <p>Upside potential created by:</p>
         <ul>
-        {data.joint.li.map((data) => {
-          return <p>{data}</p>
+        {data.joint.li.map((data, index) => {
+          return <p key={index}>{data}</p>
         })}
         </ul>
         <h3>Upside potential created by:</h3>
         <ul>
-        {data.joint.li2.map((data) => {
-          return <p>{data}</p>
+        {data.joint.li2.map((data, index) => {
+          return <p key={index}>{data}</p>
         })}
         </ul>
       </Hero>
