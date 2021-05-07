@@ -14,8 +14,8 @@ export const StyledMenu = styled.nav`
   z-index: 2;
   width: 100%;
 
-  @media(max-width: 999px) {
-    transition: transform 0.3s ease-in-out;
+  @media(max-width: ${({theme}) => theme.desktop}) {
+    /* transition: transform 0.3s ease-in-out; */
   }
   @media (min-width: ${({ theme }) => theme.desktop}) {
     display: flex;
