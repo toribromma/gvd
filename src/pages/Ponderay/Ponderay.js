@@ -1,8 +1,8 @@
 import React from "react";
 import { Hero } from "../../components";
-
 import pdf from "../../data/ponderay-site-plan.pdf";
 import flyer from "../../data/ponderay-flyer.pdf";
+import {Link} from "react-router-dom";
 
 const Ponderay = () => {
   return (
@@ -76,9 +76,9 @@ const Ponderay = () => {
             information at (509) 534-5805.
           </span>
           <p>
-            <a alt="news section of the website" href="/news">
+            <Link alt="news section of the website" href="/news">
               More news...
-            </a>
+            </Link>
           </p>
         </div>
       </Hero>

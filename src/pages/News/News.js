@@ -1,5 +1,6 @@
 import React from "react";
 import { Hero } from "../../components";
+import { Link } from "react-router-dom";
 
 const News = () => {
   return (
@@ -20,9 +21,9 @@ const News = () => {
             to the east of our project on the northeast corner. This is the
             “main and main” location for retail, commercial and mixed use
             development in the Sandpoint/Ponderay trade area. {""}
-            <a href="/ponderay" alt="ponderay page">
+            <Link href="/ponderay" alt="ponderay page">
               More...
-            </a>
+            </Link>
           </p>
           <hr></hr>
         </div>
@@ -38,14 +39,14 @@ const News = () => {
             phases with each phase operating independently as well as enhancing
             subsequent phases as developed. The project is a joint venture with
             the Dunia Family and was developed over a period of approximately 7
-            years. 
+            years.
           </p>
           <p>
             We expect the project to be completed in 2011, and to generate in
             excess of 400 million dollars in annual sales.{" "}
-            <a href="/dunia" alt="dunia plaza page">
+            <Link href="/dunia" alt="dunia plaza page">
               More...
-            </a>
+            </Link>
           </p>
         </div>
       </Hero>

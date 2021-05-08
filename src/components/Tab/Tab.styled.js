@@ -23,7 +23,7 @@ export const StyledTab = styled.button`
   }
 
   @media (max-width: 1071px) {
-    padding: 2rem 1rem;
-    margin: 1rem;
+    padding: 1rem 0rem;
+
   }
 `;

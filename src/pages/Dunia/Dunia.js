@@ -3,6 +3,7 @@ import { Hero } from "../../components";
 import duniaImg1 from "../../images/news-dunia1.jpg";
 import duniaImg2 from "../../images/news-dunia3.jpg";
 import pdf from "../../data/dunia-site-plan.pdf";
+import {Link} from "react-router-dom";
 
 const Dunia = () => {
   return (
@@ -39,7 +40,7 @@ const Dunia = () => {
           site plan
         </a>
         <span> for Dunia Plaza</span>
-        <p><a alt="news section of the website" href="/news">More news...</a></p>
+        <p><Link alt="news section of the website" href="/news">More news...</Link></p>
         </div>
       </Hero>
     </div>
