@@ -4,8 +4,7 @@ export const StyledHero = styled.div`
 background: ${({theme}) => theme.primaryLight};
 color: ${({theme}) => theme.primaryDark};
 max-width: 800px;
-/* min-width: 800px; */
-min-height: 600px;
+min-height: 642px;
 padding: 1rem 2rem;
   h1,
   h2,
@@ -56,9 +55,10 @@ padding: 1rem 2rem;
       font-size: 2rem;
     }
   }
-  @media (max-width: 9${({theme}) => theme.desktop}) {
+  @media (max-width: 1071px) {
     margin: 0 auto;
     width: 100%;
+    max-width: none;
     text-align: center;
     
     th, tr, table {

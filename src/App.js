@@ -20,6 +20,8 @@ import {
   Contact,
   Properties,
   Dunia,
+  Ponderay,
+  News
 } from "./pages";
 import FocusLock from "react-focus-lock";
 
@@ -64,6 +66,12 @@ function App() {
             </Route>
             <Route path="/dunia">
               <Dunia />
+            </Route>
+            <Route path="/ponderay">
+              <Ponderay />
+            </Route>
+            <Route path="/news">
+              <News />
             </Route>
             <Sidebar>
               <h1>Dunia Plaza</h1>

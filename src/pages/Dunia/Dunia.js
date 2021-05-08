@@ -11,12 +11,12 @@ const Dunia = () => {
         <h1>Dunia Plaza, Victorville, California</h1>
         <div style={{ textAlign: "left" }}>
           <span>📅</span>
-          <span>June 16, 2015</span>
+          <span> June 16, 2015</span>
         </div>
         <div style={{ textAlign: "left" }}> 
         <p >
-          <img style={{ float: "right" }} alt="dunia1" src={duniaImg1} />
-          <img style={{ float: "right" }} alt="dunia2" src={duniaImg2} />
+          <img style={{ float: "right", margin: "0 2px" }} alt="dunia1" src={duniaImg1} />
+          <img style={{ float: "right", margin: "0 2px" }} alt="dunia2" src={duniaImg2} />
           Our Dunia Plaza project in Victorville, California, is an expertly
           master-planned mixed retail development emphasizing restaurants,
           hospitality and power retailers such as Kohl’s, Lowe’s and Wal-Mart.
@@ -39,7 +39,7 @@ const Dunia = () => {
           site plan
         </a>
         <span> for Dunia Plaza</span>
-        <p><a alt="news section of the website" href="#">More news</a></p>
+        <p><a alt="news section of the website" href="/news">More news...</a></p>
         </div>
       </Hero>
     </div>

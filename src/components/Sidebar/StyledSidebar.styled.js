@@ -6,7 +6,7 @@ margin: 0;
   width: 250px;
   color: ${({ theme }) => theme.primaryLight};
   padding: 1rem;
-  @media (max-width: ${({theme}) => theme.desktop}) {
+  @media (max-width: 1071px) {
     margin: 0 auto;
     width: 100%;
     text-align: center;

@@ -9,7 +9,7 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    align-items: center;
+    /* align-items: center; */
     background: ${({ theme }) => theme.primaryDark};
     color: ${({ theme }) => theme.primaryLight};
     display: initial;
@@ -20,5 +20,18 @@ export const GlobalStyles = createGlobalStyle`
   }
   h1 {
     color: #B02F40;
+    /* margin-top: -px; */
   }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  th, tr {
+    font-weight: 300;
+  }
+
+  a {color: #B02F40}
+
+  
   `

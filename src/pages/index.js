@@ -6,4 +6,5 @@ export { default as PropertyManagementAndLeasing } from "./PropertyManagementAnd
 export { default as Contact } from "./Contact";
 export { default as Properties } from "./Properties";
 export { default as Dunia } from "./Dunia";
-export {default} from "./Ponderay"
+export {default as Ponderay} from "./Ponderay";
+export {default as News} from "./News";
