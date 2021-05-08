@@ -18,7 +18,8 @@ import {
   Joint,
   PropertyManagementAndLeasing,
   Contact,
-  Properties
+  Properties,
+  Dunia,
 } from "./pages";
 import FocusLock from "react-focus-lock";
 
@@ -61,19 +62,22 @@ function App() {
             <Route path="/contact">
               <Contact />
             </Route>
+            <Route path="/dunia">
+              <Dunia />
+            </Route>
             <Sidebar>
               <h1>Dunia Plaza</h1>
               <p>
                 Our Dunia Plaza project in Victorville, California, is a
                 master-planned mixed retail development emphasizing restaurants,
-                hospitality and power retailers. More...
+                hospitality and power retailers. <a href="/dunia">More...</a>
               </p>
               <h1>Ponderay, Idaho</h1>
               <p>
                 GVD is developing in Ponderay, Idaho the northeast corner of
                 Highway 95 and Kootenai Cutoff Road, and the northwest corner of
                 Highway 95 and Schweitzer Cutoff Road, which are directly across
-                the street from one another. More...
+                the street from one another. <a href="/ponderay">More...</a>
               </p>
             </Sidebar>
           </FlexContainer>

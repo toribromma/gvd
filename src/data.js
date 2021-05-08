@@ -79,7 +79,5 @@ export const data = {
         fax: "(509) 443-0100",
         president: "Gerald V. Dicker",
       }
-      
-
   }
 };

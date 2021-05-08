@@ -5,3 +5,5 @@ export { default as Joint } from "./Joint";
 export { default as PropertyManagementAndLeasing } from "./PropertyManagementAndLeasing";
 export { default as Contact } from "./Contact";
 export { default as Properties } from "./Properties";
+export { default as Dunia } from "./Dunia";
+export {default} from "./Ponderay"
