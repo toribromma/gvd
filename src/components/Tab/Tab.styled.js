@@ -21,4 +21,8 @@ export const StyledTab = styled.button`
     background-color: white;
     color: #1B1B1B;
   }
+
+  @media (max-width: 1071px) {
+    padding: 2rem;
+  }
 `;
