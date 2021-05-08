@@ -76,7 +76,7 @@ const Ponderay = () => {
             information at (509) 534-5805.
           </span>
           <p>
-            <Link alt="news section of the website" href="/news">
+            <Link alt="news section of the website" to="/news">
               More news...
             </Link>
           </p>

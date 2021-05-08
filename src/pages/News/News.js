@@ -21,7 +21,7 @@ const News = () => {
             to the east of our project on the northeast corner. This is the
             “main and main” location for retail, commercial and mixed use
             development in the Sandpoint/Ponderay trade area. {""}
-            <Link href="/ponderay" alt="ponderay page">
+            <Link to="/ponderay" alt="ponderay page">
               More...
             </Link>
           </p>
@@ -44,7 +44,7 @@ const News = () => {
           <p>
             We expect the project to be completed in 2011, and to generate in
             excess of 400 million dollars in annual sales.{" "}
-            <Link href="/dunia" alt="dunia plaza page">
+            <Link to="/dunia" alt="dunia plaza page">
               More...
             </Link>
           </p>
