@@ -1,5 +1,6 @@
 import React from "react";
 import { Hero } from "../../components";
+import "./style.css"
 import {
   arizona,
   california,
@@ -19,7 +20,6 @@ import {
 
 const Properties = () => {
   console.log(arizona);
-
   return (
     <div>
       <Hero>

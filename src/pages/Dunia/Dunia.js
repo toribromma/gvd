@@ -40,7 +40,7 @@ const Dunia = () => {
           site plan
         </a>
         <span> for Dunia Plaza</span>
-        <p><Link alt="news section of the website" to="/news">More news...</Link></p>
+        <p><Link alt="news section of the website" tog="/news">More news...</Link></p>
         </div>
       </Hero>
     </div>

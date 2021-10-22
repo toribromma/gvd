@@ -9,18 +9,18 @@ export const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   body {
-    /* align-items: center; */
+
     background: ${({ theme }) => theme.primaryDark};
     color: ${({ theme }) => theme.primaryLight};
     display: initial;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: "Georgia";
     height: 100vh;
     justify-content: center;
     text-rendering: optimizeLegibility;
   }
   h1 {
     color: #B02F40;
-    /* margin-top: -px; */
   }
   p {
     font-size: 18px;

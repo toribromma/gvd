@@ -78,6 +78,7 @@ export const data = {
         telephone: "(509) 534-5805",
         fax: "(509) 443-0100",
         president: "Gerald V. Dicker",
+        vicePresident: "Jeff Bornholdt"
       }
   }
 };

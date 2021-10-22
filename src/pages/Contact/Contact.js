@@ -46,11 +46,11 @@ const Contact = () => {
               <b>President:</b> {washington.president}
             </p>
             <p>
-              <b>Vice President/CFO:</b> {washington.vicePresident}
+              <b>Vice President:</b> {washington.vicePresident}
             </p>
-            <p>
-              <b>Property Manager:</b> {washington.propertyManager}
-            </p>
+            {/* <p> */}
+              {/* <b>Property Manager:</b> {washington.propertyManager} */}
+            {/* </p> */}
           </div>
         </FlexContainer>
       </Hero>
