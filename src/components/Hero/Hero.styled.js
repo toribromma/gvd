@@ -6,6 +6,15 @@ export const StyledHero = styled.div`
   padding: 1rem 2rem;
   opacity: 95%;
   min-height: 50vh;
+  .column {
+    float: left;
+    width: 50%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  };
   h2,
   p,
   button {
@@ -48,16 +57,17 @@ export const StyledHero = styled.div`
     background-color: #ccc;
   }
 
-    th,
-    tr,
-    table {
-      /* text-align: center; */
-      margin: 0 auto;
-      font-size: 1.5rem;
-    }
+  th,
+  tr,
+  table {
+    /* text-align: center; */
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
 
   @media (min-width: ${({ theme }) => theme.desktop}) {
-      text-align: center;
+    padding: 50px 500px;
+    /* text-align: center; */
     h1 {
       font-size: 4rem;
     }
@@ -67,14 +77,18 @@ export const StyledHero = styled.div`
 
     p {
       font-size: 1.5rem;
-      margin: 20px 20%;
     }
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    table, tr, th {
+    table,
+    tr,
+    th {
       font-size: 1rem;
     }
+
+    .column {
+      width: 100%;
+    }
   }
-  
 `;

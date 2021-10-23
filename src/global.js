@@ -4,19 +4,16 @@ export const GlobalStyles = createGlobalStyle`
   html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
   }
   *, *::after, *::before {
     box-sizing: border-box;
   }
   body {
-
     background: ${({ theme }) => theme.primaryDark};
     color: ${({ theme }) => theme.primaryLight};
     display: initial;
-
-    height: 100vh;
-    justify-content: center;
+    /* height: 100vh;
+    justify-content: center; */
     text-rendering: optimizeLegibility;
   }
   h1 {

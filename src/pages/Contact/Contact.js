@@ -1,5 +1,5 @@
 import React from "react";
-import { FlexContainer, Hero } from "../../components";
+import { Hero } from "../../components";
 import { data } from "../../data";
 
 const Contact = () => {
@@ -9,8 +9,8 @@ const Contact = () => {
     <div>
       <Hero>
         <h1>{data.contact.title}</h1>
-        <FlexContainer>
-          <div style={{padding: 10 }}>
+        <div class="row">
+          <div class="column">
             <h2>{california.headingOne}</h2>
             <p>{california.pOne}</p>
             <p>{california.pTwo}</p>
@@ -31,7 +31,7 @@ const Contact = () => {
               <b>Property Manager:</b> {california.propertyManager}
             </p>
           </div>
-          <div style={{padding: 10 }}>
+          <div class="column">
             <h2>{washington.headingOne}</h2>
             <p>{washington.pOne}</p>
             <p>{washington.pTwo}</p>
@@ -48,11 +48,8 @@ const Contact = () => {
             <p>
               <b>Vice President:</b> {washington.vicePresident}
             </p>
-            {/* <p> */}
-              {/* <b>Property Manager:</b> {washington.propertyManager} */}
-            {/* </p> */}
           </div>
-        </FlexContainer>
+        </div>
       </Hero>
     </div>
   );
