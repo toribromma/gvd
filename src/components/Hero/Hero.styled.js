@@ -5,6 +5,7 @@ export const StyledHero = styled.div`
   color: ${({ theme }) => theme.primaryDark};
   padding: 1rem 2rem;
   opacity: 95%;
+  min-height: 50vh;
   h2,
   p,
   button {
