@@ -4,11 +4,9 @@ export const StyledTab = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 0.7rem 2.05rem;
-  margin-bottom: -16px;
-  position: relative;
+  padding: 0.2rem 3rem;
   margin-right: 0.1em;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   border: ${(props) => (props.active ? "1px solid #ccc" : "")};
   border-bottom: ${(props) => (props.active ? "none" : "")};
   background-color: ${(props) => (props.active ? "#EFFFFA" : "transparent")};
@@ -22,8 +20,4 @@ export const StyledTab = styled.button`
     color: #1B1B1B;
   }
 
-  @media (max-width: 1071px) {
-    padding: 1rem 0rem;
-
-  }
 `;

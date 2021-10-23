@@ -24,7 +24,6 @@ export const StyledMenu = styled.nav`
     margin: 0 auto;
     transform: none;
     height: fit-content;
-    width: 1024px;
     text-align: center;
     background: transparent;
   }

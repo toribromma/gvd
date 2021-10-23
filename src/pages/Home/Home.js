@@ -16,7 +16,7 @@ const Home = () => {
           development services for developers seeking expertise and/or financial
           support.
         </p>
-        <button>Also See...</button>
+        {/* <button>Also See...</button> */}
       </Hero>
     </div>
   );

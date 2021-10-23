@@ -10,10 +10,10 @@ const Dunia = () => {
     <div>
       <Hero>
         <h1>Dunia Plaza, Victorville, California</h1>
-        <div style={{ textAlign: "left" }}>
+        <p>
           <span>📅</span>
           <span> June 16, 2015</span>
-        </div>
+        </p>
         <div style={{ textAlign: "left" }}> 
         <p >
           <img style={{ float: "right", margin: "0 2px" }} alt="dunia1" src={duniaImg1} />
@@ -30,6 +30,7 @@ const Dunia = () => {
           The project was completed in 2011, and to generate in excess of 400
           million dollars in annual sales.
         </p>
+        <p>
         <span>View the </span>
         <a
           rel="noreferrer"
@@ -40,7 +41,8 @@ const Dunia = () => {
           site plan
         </a>
         <span> for Dunia Plaza</span>
-        <p><Link alt="news section of the website" tog="/news">More news...</Link></p>
+        </p>
+        <p><Link alt="news section of the website" to="/news">More news...</Link></p>
         </div>
       </Hero>
     </div>

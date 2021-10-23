@@ -4,6 +4,7 @@ export const GlobalStyles = createGlobalStyle`
   html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
   }
   *, *::after, *::before {
     box-sizing: border-box;
@@ -13,8 +14,7 @@ export const GlobalStyles = createGlobalStyle`
     background: ${({ theme }) => theme.primaryDark};
     color: ${({ theme }) => theme.primaryLight};
     display: initial;
-    /* font-family: 'Playfair Display', serif; */
-    font-family: "Georgia";
+
     height: 100vh;
     justify-content: center;
     text-rendering: optimizeLegibility;

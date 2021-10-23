@@ -9,10 +9,10 @@ const Ponderay = () => {
     <div>
       <Hero>
         <h1>Ponderay, Idaho</h1>
-        <div style={{ textAlign: "left" }}>
+        <p>
           <span>📅</span>
-          <span> April 29, 2009</span>
-        </div>
+          <span > April 29, 2009</span>
+        </p>
         <div style={{ textAlign: "left" }}>
           <p>
             In Ponderay, Idaho, we are developing the northeast corner of
@@ -51,7 +51,8 @@ const Ponderay = () => {
             owners of the site. We expect this project to be complete by the
             summer of 2012.
           </p>
-          <span>View the </span>
+          <p>
+          <span style={{marginLeft: "0"}}>View the </span>
           <a
             rel="noreferrer"
             alt="site plan for Ponderay"
@@ -75,6 +76,7 @@ const Ponderay = () => {
             for our Ponderay, Idaho projects, or contact Ryan for additional
             information at (509) 534-5805.
           </span>
+          </p>
           <p>
             <Link alt="news section of the website" to="/news">
               More news...

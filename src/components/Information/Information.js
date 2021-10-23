@@ -6,7 +6,7 @@ const Information = () => {
     <StyledBanner>
     <StyledInformation>
 
-          <h1>GVD</h1>
+          <a href="/"><h1>GVD</h1></a>
 
 
           <h2>Commercial Properties, Inc</h2>

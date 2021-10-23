@@ -2,27 +2,17 @@ import styled from "styled-components";
 
 export const StyledInformation = styled.div`
   display: block;
-  width: 1024px;
-  margin: 0 auto;
-  margin-bottom: -10px;
+  margin: -40px auto;
   box-sizing: content-box;
-
-  @media(max-width: 1023px) {
-    width: fit-content;
-  }
-
+  
   li {
     display: inline-block;
   }
   h1 {
     display: inline-block;
     text-transform: uppercase;
-    /* margin: 1rem 2rem; */
-    /* margin-left: 40px; */
-    padding: 1rem 3rem;
-    font-size: 3rem;
-    width: 250px;
-    text-align: center;
+    padding: 0.5rem 3rem;
+    font-size: 3.5rem;
     color: #FEFFFC;
     letter-spacing: 1.2px;
     background-color: #B02E12;
@@ -30,8 +20,8 @@ export const StyledInformation = styled.div`
   h2 {
     display: inline-block;
     text-transform: uppercase;
-    margin: 1rem 2rem;
-    font-size : 1.5rem;
+    margin: 0rem 1rem;
+    font-size : 1.25rem;
     width: 250px;
     color: #FEFFFC;
     letter-spacing: 1.2px;
@@ -39,18 +29,31 @@ export const StyledInformation = styled.div`
   }
 
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    text-align: left;
+
+    margin: 0px auto;
+    
     h1, h2 {
-      margin: 1rem auto;
+      margin: 0 auto;
+      text-align: left;
+
     }
+
+    /* h1 {      width: 100%;} */
+
     h2 {
-      padding: 1rem;
-      width: 100%;
+      margin-left: 15px;
+      padding: 10px;
     }
+
   }
 `;
 
-export const StyledBanner = styled.div`
+export const StyledBanner = styled.header`
   width: 100%;
   background: #1b1b1b;
+  height: 120px;
+
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    height: 150px;
+  }
 `;
