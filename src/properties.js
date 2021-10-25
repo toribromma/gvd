@@ -1,10 +1,10 @@
 export const properties = [
-  {
-    State: "Arizona",
-    Vendor: "Carl's Jr.",
-    Street: "4110 E. 22nd St",
-    City: "Tucson",
-  },
+  // {
+  //   State: "Arizona",
+  //   Vendor: "Carl's Jr.",
+  //   Street: "4110 E. 22nd St",
+  //   City: "Tucson",
+  // },
   {
     State: "Arizona",
     Vendor: "Taco Bell",
@@ -78,12 +78,12 @@ export const properties = [
     Street: "7269 Haven Ave.",
     City: "Rancho Cucamonga",
   },
-  {
-    State: "California",
-    Vendor: "Fireplace and Patio Trends",
-    Street: "2075 N. Tustin Ave.",
-    City: "Orange",
-  },
+  // {
+  //   State: "California",
+  //   Vendor: "Fireplace and Patio Trends",
+  //   Street: "2075 N. Tustin Ave.",
+  //   City: "Orange",
+  // },
   {
     State: "California",
     Vendor: "South Gate ' Town Center",
@@ -121,7 +121,7 @@ export const properties = [
     City: "Colorado Springs",
   },
   {
-    State: "Colorado",
+    // State: "Colorado",
     Vendor: "Barnes & Noble",
     Street: "794 Citadel Dr. East",
     City: "Colorado Springs",
@@ -247,12 +247,12 @@ export const properties = [
     Street: "7720 Mentor Ave.",
     City: "Mentor",
   },
-  {
-    State: "Oklahoma",
-    Vendor: "Arby's",
-    Street: "7925 E. 71st St",
-    City: "Tulsa",
-  },
+  // {
+  //   State: "Oklahoma",
+  //   Vendor: "Arby's",
+  //   Street: "7925 E. 71st St",
+  //   City: "Tulsa",
+  // },
   {
     State: "Texas",
     Vendor: "Randall's Shopping Ctr",
@@ -325,12 +325,12 @@ export const properties = [
     Street: "20130 Hwy 59",
     City: "New Caney",
   },
-  {
-    State: "Washington",
-    Vendor: "Burgan's Block",
-    Street: "1120 N. Division St.",
-    City: "Spokane",
-  },
+  // {
+  //   State: "Washington",
+  //   Vendor: "Burgan's Block",
+  //   Street: "1120 N. Division St.",
+  //   City: "Spokane",
+  // },
   {
     State: "Washington",
     Vendor: "Red Robin / AT&T",
@@ -349,12 +349,12 @@ export const properties = [
     Street: "700 N. Division Street",
     City: "Spokane",
   },
-  {
-    State: "Washington",
-    Vendor: "Tidyman Property | SOLD",
-    Street: "Sprague & McDonald",
-    City: "Spokane Valley",
-  },
+  // {
+  //   State: "Washington",
+  //   Vendor: "Tidyman Property | SOLD",
+  //   Street: "Sprague & McDonald",
+  //   City: "Spokane Valley",
+  // },
   {
     State: "Washington",
     Vendor: "Taco Time",

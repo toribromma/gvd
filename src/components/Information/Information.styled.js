@@ -11,7 +11,7 @@ export const StyledInformation = styled.div`
   h1 {
     display: inline-block;
     text-transform: uppercase;
-    padding: 0.5rem 3rem;
+    padding: 0.2rem 3rem;
     font-size: 3.5rem;
     color: #FEFFFC;
     letter-spacing: 1.2px;

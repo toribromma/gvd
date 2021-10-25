@@ -18,7 +18,6 @@ const MyCarousel = () => {
         showIndicators={false}
         showStatus={false}
         showArrows={false}
-        // dynamicHeight
       >
         <div>
           <img alt={image1} src={image1} />
