@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHero = styled.div`
   background: ${({ theme }) => theme.primaryLight};
   color: ${({ theme }) => theme.primaryDark};
-  padding: 1rem 2rem;
+  padding: 3rem 2rem;
   opacity: 95%;
   min-height: 50vh;
   .column {

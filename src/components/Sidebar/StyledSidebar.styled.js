@@ -4,7 +4,7 @@ export const StyledSidebar = styled.div`
   margin: 0;
   background: #1b1b1b;
   color: ${({ theme }) => theme.primaryLight};
-  padding: 1rem;
+  padding: 3rem 2rem;
   min-height: 50vh;
   text-align: center;
 
