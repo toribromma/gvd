@@ -66,8 +66,8 @@ export const StyledHero = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.desktop}) {
-    padding: 50px 500px;
-    /* text-align: center; */
+    text-align: center;
+    
     h1 {
       font-size: 4rem;
     }
