@@ -30,7 +30,7 @@ const News = () => {
         <div style={{ textAlign: "left" }}>
           <h2>Dunia Plaza, Victorville, California</h2>
           <span>📅</span>
-          <span> April 29, 2009</span>
+          <date> April 29, 2009</date>
           <p>
             Our Dunia Plaza project in Victorville, California, is an expertly
             master-planned mixed retail development emphasizing restaurants,

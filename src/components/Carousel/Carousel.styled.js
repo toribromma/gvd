@@ -6,8 +6,6 @@ export const StyledCarousel = styled.div`
   /* height: 50vh; */
   img {
     opacity: 100%;
-    /* background-blend-mode: darken, luminosity; */
-    /* filter: saturate(1.5); */
     object-fit: contain;
   }
 
