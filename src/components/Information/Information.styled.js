@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledInformation = styled.div`
   display: block;
-  margin: -42px auto;
+  margin: -45px auto;
   box-sizing: content-box;
 
   li {
@@ -11,7 +11,7 @@ export const StyledInformation = styled.div`
   h1 {
     display: inline-block;
     text-transform: uppercase;
-    padding: 0.6rem 3rem;
+    padding: 0.8rem 3rem;
     font-size: 4rem;
     color: #fefffc;
     letter-spacing: 1.2px;

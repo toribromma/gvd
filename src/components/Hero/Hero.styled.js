@@ -3,21 +3,18 @@ import styled from "styled-components";
 export const StyledHero = styled.div`
   background: ${({ theme }) => theme.primaryLight};
   color: ${({ theme }) => theme.primaryDark};
-  padding: 3rem 2rem;
+  padding: 1rem 2rem;
   opacity: 95%;
   min-height: 50vh;
+
   .column {
-    float: left;
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
   }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  };
-  h2,
-  p,
-  button {
+
+  .column>div>p{
+    line-height: 0.5;
   }
 
   h1 {
@@ -73,6 +70,7 @@ export const StyledHero = styled.div`
     }
     h2 {
       font-size: 2rem;
+      font-weight: 600;
     }
 
     p {
@@ -88,7 +86,9 @@ export const StyledHero = styled.div`
     }
 
     .column {
+      display: block;
       width: 100%;
     }
+
   }
 `;
