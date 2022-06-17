@@ -13,8 +13,19 @@ export const StyledHero = styled.div`
     column-gap: 100px;
   }
 
-  .column>div>p{
-    line-height: 0.5;
+  p {
+    line-height: 2;
+    width: 70%;
+    margin:  40px auto;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    line-height: 2
+    
   }
 
   h1 {
@@ -66,15 +77,14 @@ export const StyledHero = styled.div`
     text-align: center;
     
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
     }
     h2 {
       font-size: 2rem;
       font-weight: 600;
     }
-
     p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
 

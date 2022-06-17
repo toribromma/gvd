@@ -10,47 +10,46 @@ const Contact = () => {
       <Hero>
         <h1>{data.contact.title}</h1>
         <div class="column">
-          <div>
+          <ul>
             <h2>{california.headingOne}</h2>
-            <p>{california.pOne}</p>
-            <p>{california.pTwo}</p>
-            <p>{california.pThree}</p>
-            <p>
-              <b>Telephone:</b> {california.telephone}
-            </p>
-            <p>
+            <li>{california.liOne}</li>
+            <li>{california.liTwo}</li>
+            <li>{california.liThree}</li>
+            <li>
+              <b>Telehone:</b> {california.telephone}
+            </li>
+            <li>
               <b>Fax:</b> {california.fax}
-            </p>
-            <p>
-              <b>President:</b> {california.president}
-            </p>
-            <p>
+            </li>
+            <li>
+              <b>president:</b> {california.president}
+            </li>
+            <li>
               <b>Vice President/CFO:</b> {california.vicePresident}
-            </p>
-            <p>
+            </li>
+            <li>
               <b>Property Manager:</b> {california.propertyManager}
-            </p>
-          </div>
-          <div>
+            </li>
+          </ul>
+          <ul>
             <h2>{washington.headingOne}</h2>
-            <p>{washington.pOne}</p>
-            <p>{washington.pTwo}</p>
-            <p>{washington.pThree}</p>
-            <p>
+            <li>{washington.liOne}</li>
+            <li>{washington.liTwo}</li>
+            <li>{washington.liThree}</li>
+            <li>
               <b>Telephone:</b> {washington.telephone}
-            </p>
-            <p>
+            </li>
+            <li>
               <b>Fax:</b> {washington.fax}
-            </p>
-            <p>
+            </li>
+            <li>
               <b>President:</b> {washington.president}
-            </p>
-            <p>
+            </li>
+            <li>
               <b>Vice President:</b> {washington.vicePresident}
-            </p>
-          </div>
+            </li>
+          </ul>
         </div>
-        
       </Hero>
     </div>
   );

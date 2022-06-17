@@ -16,7 +16,6 @@ export const StyledSidebar = styled.div`
     h2 {
       font-size: 2rem;
     }
-
     p {
       font-size: 1.5rem;
     }

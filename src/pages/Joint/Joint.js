@@ -13,19 +13,19 @@ const Joint = () => {
         })}
         <h2>{data.joint.thirdHeading}</h2>
         <p>{data.joint.p2}</p>
-        <h3>{data.joint.fourthSmallerHeading}</h3>
+        <h2>{data.joint.fourthSmallerHeading}</h2>
         <p><b>Vacant Land</b>: Well-located corners or freeway off-ramps. (Generally 6 acres to 500 acres.)</p>
         <p><b>Existing Projects</b>: Well located 60,000 square feet or greater gross leasable area.</p>
-        <p>Upside potential created by:</p>
+        <h3>Upside potential created by:</h3>
         <ul>
         {data.joint.li.map((data, index) => {
-          return <p key={index}>{data}</p>
+          return <li key={index}>{data}</li>
         })}
         </ul>
         <h3>Upside potential created by:</h3>
         <ul>
         {data.joint.li2.map((data, index) => {
-          return <p key={index}>{data}</p>
+          return <li key={index}>{data}</li>
         })}
         </ul>
       </Hero>

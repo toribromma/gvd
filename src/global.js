@@ -2,8 +2,10 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   html, body {
-    margin: 0;
+    margin: auto;
     padding: 0;
+    width: 75%;
+    font-family: 'Roboto', sans-serif;
   }
   *, *::after, *::before {
     box-sizing: border-box;

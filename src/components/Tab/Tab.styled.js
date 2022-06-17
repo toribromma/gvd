@@ -4,7 +4,8 @@ export const StyledTab = styled.button`
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 5px 3rem;
+  padding: 3px 2rem;
+  font-family: 'Roboto', sans-serif;
   margin-right: 0.1em;
   font-size: 1.5rem;
   border: ${(props) => (props.active ? "1px solid #ccc" : "")};
