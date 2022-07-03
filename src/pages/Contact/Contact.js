@@ -1,5 +1,5 @@
 import React from "react";
-// import { FlexContainer, Hero } from "../../components";
+import { Hero } from "../../components";
 import { data } from "../../data";
 
 const Contact = () => {
