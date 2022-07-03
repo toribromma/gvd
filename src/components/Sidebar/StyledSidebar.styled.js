@@ -11,13 +11,13 @@ export const StyledSidebar = styled.div`
   @media (min-width: ${({ theme }) => theme.desktop}) {
       text-align: center;
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
     }
     h2 {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
     p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
   }
 `;

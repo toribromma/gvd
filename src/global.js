@@ -4,7 +4,7 @@ export const GlobalStyles = createGlobalStyle`
   html, body {
     margin: auto;
     padding: 0;
-    width: 75%;
+    max-width: 1280px;
     font-family: 'Roboto', sans-serif;
   }
   *, *::after, *::before {

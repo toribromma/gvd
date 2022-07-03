@@ -5,7 +5,6 @@ export const StyledHero = styled.div`
   color: ${({ theme }) => theme.primaryDark};
   padding: 1rem 2rem;
   opacity: 95%;
-  min-height: 50vh;
 
   .column {
     display: flex;
@@ -15,8 +14,15 @@ export const StyledHero = styled.div`
 
   p {
     line-height: 2;
-    width: 70%;
-    margin:  40px auto;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: ${({ theme }) => theme.desktop}) {
+    p {
+      // width: 70%;
+    }
   }
 
   ul {

@@ -22,7 +22,7 @@ const Contact = () => {
               <b>Fax:</b> {california.fax}
             </li>
             <li>
-              <b>president:</b> {california.president}
+              <b>President:</b> {california.president}
             </li>
             <li>
               <b>Vice President/CFO:</b> {california.vicePresident}
